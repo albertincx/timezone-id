@@ -2,7 +2,10 @@ Description
 ===========
 
 timezone client module for [node.js](http://nodejs.org/) that provides an asynchronous interface for getting timezone by city name or coords.
+zone ID will be retrieved from here:
 
+1. https://geocode-maps.yandex.ru/1.x/?geocode=[city]&format=json&results=1
+2. https://maps.googleapis.com/maps/api/timezone/json?location=[coordinates]&timestamp=0&key=[api_key]
 
 Requirements
 ============
