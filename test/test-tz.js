@@ -6,7 +6,7 @@ var path = require('path'),
 var group = path.basename(__filename, '.js') + '/';
 [
   {data: '', expected: ''},
-  {data: 'Moscow', expected: 'Europe/Moscow'},
+  {data: 'Moscow#', expected: 'Europe/Moscow'},
   {data: 'istanbul', expected: 'Europe/Istanbul'},
   {data: [55.755814,37.617635], timestamp: 123123, expected: 'Asia/Tehran'}
 
