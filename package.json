@@ -1,6 +1,6 @@
 {
   "name": "timezone-id",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "asynchronous interface for getting timezone by city name or coords",
   "main": "./lib/tz.js",
   "scripts": {
