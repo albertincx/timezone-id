@@ -11,7 +11,7 @@ Requirements
 ============
 
 * [node.js](http://nodejs.org/) -- v0.8.0 or newer
-
+* Google Map Api Key (https://developers.google.com/maps/documentation/embed/get-api-key)
 
 Install
 =======
@@ -26,8 +26,9 @@ Examples
 
 ```javascript
   var tz = require('timezone-id');
-
-  tz.getTimeZone('Sydney').then(timeZoneId => {
+  var apiKey = process.env.GOOGLE_MAP_API_KEY;
+  
+  tz.getTimeZone('Sydney', apiKey).then(timeZoneId => {
         console.log(timeZoneId); //Australia/Sydney
       })
 ```
@@ -36,8 +37,8 @@ Examples
 
 ```javascript
   var tz = require('timezone-id');
-  
-    tz.getTimeZone([55.755814,37.617635]).then(timeZoneId => {
+  var apiKey = process.env.GOOGLE_MAP_API_KEY;
+    tz.getTimeZone([55.755814, 37.617635], apiKey).then(timeZoneId => {
           console.log(timeZoneId); //Asia/Tehran
         })
 ```
