@@ -1,6 +1,6 @@
 {
   "name": "timezone-id",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "asynchronous interface for getting timezone by city name or coords",
   "main": "./lib/tz.js",
   "scripts": {
@@ -10,7 +10,9 @@
     "type": "git",
     "url": "https://github.com/albertincx/timezone-id.git"
   },
-  "keywords": ["timezone"],
+  "keywords": [
+    "timezone"
+  ],
   "author": "albertincx",
   "license": "ISC"
 }
