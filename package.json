@@ -11,7 +11,8 @@
     "url": "https://github.com/albertincx/timezone-id.git"
   },
   "keywords": [
-    "timezone"
+    "timezone",
+    "timezones"
   ],
   "author": "albertincx",
   "license": "ISC",
