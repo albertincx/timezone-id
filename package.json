@@ -14,5 +14,6 @@
     "timezone"
   ],
   "author": "albertincx",
-  "license": "ISC"
+  "license": "ISC",
+  "runkitExampleFilename": "runkit-example.js"
 }
