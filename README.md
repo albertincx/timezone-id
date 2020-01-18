@@ -1,3 +1,9 @@
+update: 01.01.2020
+===========
+
+If you want to find tz by city name, you need to get the key for geocoder [here](https://developer.tech.yandex.ru/?from=club)
+
+
 Description
 ===========
 
@@ -11,6 +17,7 @@ Requirements
 ============
 
 * [node.js](http://nodejs.org/) -- v0.8.0 or newer
+* API_KEY from [here](https://developer.tech.yandex.ru/?from=club) -- for city names
 
 Install
 =======
@@ -26,7 +33,7 @@ Examples
 ```javascript
   var tz = require('timezone-id');
   
-  tz.getTimeZone('Sydney').then(timeZoneId => {
+  tz.getTimeZone('Sydney', API_KEY).then(timeZoneId => {
         console.log(timeZoneId); //Australia/Sydney
       })
 ```
